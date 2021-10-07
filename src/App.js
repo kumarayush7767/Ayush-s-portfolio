@@ -2,6 +2,7 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Footer from './components/Footer';
 import NavMenu from './components/NavMenu';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -30,6 +31,7 @@ const App = () => {
             <Home />
           </Route>
         </Switch>
+        <Footer/>
       </Router>
     </>
   );
