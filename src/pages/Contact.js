@@ -1,11 +1,14 @@
 /* eslint-disable prettier/prettier */
 /* eslint-disable arrow-body-style */
 import React from 'react'
+import ContactSection from '../components/ContactSection'
+import Map from '../components/Map'
 
 const Contact = () => {
     return (
         <div>
-            <h1>This is Contact page</h1>
+            <ContactSection/>
+            <Map/>
         </div>
     )
 }
