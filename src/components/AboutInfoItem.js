@@ -9,8 +9,9 @@ const AboutItemStyles = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin-top: 3rem;
   position: relative;
+  /* gap: 5rem; */
+  margin-top: 3rem;
   .title {
     font-size: 2.4rem;
   }
@@ -26,10 +27,9 @@ const AboutItemStyles = styled.div`
     border-radius: 8px;
   }
   @media only screen and (max-width: 768px) {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 1rem;
-
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
     .items {
       position: initial;
       gap: 1rem;

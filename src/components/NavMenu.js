@@ -12,7 +12,6 @@ const NavMenuStyles = styled.div`
   width: 100%;
   padding: 1rem 0;
   background: var(--dark-bg);
-
   ul {
     max-width: 1200px;
     margin: 0 auto;
@@ -28,7 +27,7 @@ const NavMenuStyles = styled.div`
     }
     a {
       display: inline-block;
-      font-family: "RobotoMono Regular";
+      font-family: 'RobotoMono Regular';
       padding: 1rem 2rem;
       font-size: 2rem;
       color: var(--gray-1);
@@ -46,11 +45,11 @@ const NavMenuStyles = styled.div`
     cursor: pointer;
     display: none;
     outline: none;
-    *{
+    * {
       pointer-events: none;
     }
   }
-  .closeNavIcon {
+  .navItems .closeNavIcon {
     display: none;
   }
   @media only screen and (max-width: 768px) {
@@ -65,27 +64,26 @@ const NavMenuStyles = styled.div`
       --top: 1rem;
       transition: 0.3s ease transform;
       background-color: var(--deep-dark);
-      /* padding: 2rem; */
-      padding: 6rem;
+      padding: 2rem;
       width: 90%;
       max-width: 300px;
       border-radius: 12px;
       position: absolute;
       right: 1rem;
       top: var(--top);
-    }
-    .closeNavIcon {
-      display: block;
-      width: 3rem;
-      margin: 0 0 0 auto;
-      cursor: pointer;
-      * {
-        pointer-events: none;
+      .closeNavIcon {
+        display: block;
+        width: 3rem;
+        margin: 0 0 0 auto;
+        cursor: pointer;
+        * {
+          pointer-events: none;
+        }
       }
-    }
-    li {
-      display: block;
-      margin-bottom: 1rem;
+      li {
+        display: block;
+        margin-bottom: 1rem;
+      }
     }
   }
 `;
