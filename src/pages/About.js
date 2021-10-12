@@ -135,7 +135,7 @@ const About = () => {
             />
             <AboutInfoItem
               title="FrontEnd"
-              items={['HTML','CSS','JavaScript','BootStrap','ReactJS']}
+              items={['HTML','CSS','JavaScript','ReactJS']}
             />
             <AboutInfoItem
               title="DSA"
