@@ -84,10 +84,10 @@ const AboutSection = () => {
                   heading="About me"
                  />
                  <PText>
-                     I am a developer.I am from Bihar,India. 
-                     I have created many websites. I love designing.
-                     I am a computer science graduate from National 
-                     Institute of Technology,Patna.
+                    Hi there! I am Ayush Kumar.
+                    A passionate programmer born in Bettiah,Bihar,India. 
+                    I am a Front-end Web Developer with React.js.
+                    
                  </PText>
                  <div className="aboutSection__buttons">
                     <Button btnLink="/projects"

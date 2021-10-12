@@ -54,7 +54,7 @@ const Map = () => {
           <h3 className="map__card__heading">Here is me</h3>
           <PText>Bettiah,Bihar,India</PText>
           <a
-            href="https://goo.gl/maps/4nZ78xVawc3pygQq9"
+            href="https://goo.gl/maps/m1vQWrzb9YyMDaEx6"
             target="_blank"
             rel="noreferrer"
             className="map__card__link"

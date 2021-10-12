@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import styled from 'styled-components';
 import { MdEmail, MdLocalPhone } from 'react-icons/md';
@@ -58,9 +59,9 @@ export default function ContactSection() {
         <SectionTitle heading="contact" subheading="get in touch" />
         <div className="contactSection__wrapper">
           <div className="left">
-            <ContactInfoItem icon={<MdLocalPhone />} text="+8801231" />
-            <ContactInfoItem icon={<MdEmail />} text="webcifar@gmail.com" />
-            <ContactInfoItem text="Chittagong, Bangladesh" />
+            <ContactInfoItem icon={<MdLocalPhone />} text="+918696287119" />
+            <ContactInfoItem icon={<MdEmail />} text="kumarayush7767@gmail.com" />
+            <ContactInfoItem text="Bettiah,Bihar,India" />
           </div>
           <div className="right">
             <ContactForm />

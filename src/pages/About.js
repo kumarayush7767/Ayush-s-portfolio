@@ -4,7 +4,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Button from '../components/Button';
 import PText from '../components/PText';
-import AboutImg from '../assets/images/about-page-img.png';
+import AboutImg from '../assets/images/about1.jpeg';
 import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
 
@@ -83,35 +83,32 @@ const About = () => {
             <p className="about__subheading">
               Hi, I am <span>Ayush Kumar</span>
             </p>
-            <h2 className="about__heading">A freelance Web developer</h2>
+            <h2 className="about__heading">A Front-end Web developer</h2>
             <div className="about__info">
               <PText>
-                I am from Bihar,Lorem Ipsum has been the industry's standard
-                dummy text ever since the 1500s, when an unknown printer took a
-                galley of type and scrambled it to make a type specimen book. It
-                has survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged.
+                I am currently pursuing my BTech in Computer Science and
+                Enginnering from National Institute of Technology, Patna. 
+                I am a coder and a front-end developer.
                 <br />
                 <br />
-                I am from Bihar,Lorem Ipsum has been the industry's standard
-                dummy text ever since the 1500s, when an unknown printer took a
-                galley of type and scrambled it to make a type specimen book. It
-                has survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged.
+                In 2019, I started Bachelor of Technology in Computer Science 
+                and Engineering from National Institute of Technology, Patna.
+                I always try my level best to learn new things and polish what 
+                i already know.
                 <br />
-                <br />I am from Bihar,Lorem Ipsum has been the industry's
-                standard dummy text ever since the 1500s, when an unknown
-                printer took a galley of type and scrambled it to make a type
-                specimen book. It has survived not only five centuries, but also
-                the leap into electronic typesetting, remaining essentially
-                unchanged.
+                <br />
+                Along with that, I also help people as a Mentor on their 
+                journey of becoming a professional programmer.
+                I love learning about new technologies, what problems are they 
+                solving and How can I use them to build better and scalable products.
               </PText>
             </div>
-            <Button
-              btnLink="http://www.nitp.ac.in/php/home.php"
+             <Button
+              btnLink="Ayush_Resume.pdf"
               btnText="Download CV"
               outline={false}
             />
+            
           </div>
           <div className="right">
             <img src={AboutImg} alt="ayush" />
@@ -121,43 +118,47 @@ const About = () => {
           <div className="about__info__item">
             <h1 className="about__info__heading">Education</h1>
             <AboutInfoItem
-              title="School"
-              items={['Saraswati Vidya Mandir, Barwat Sena , Bettiah']}
-            />
-            <AboutInfoItem
-              title="College"
+              title="B.Tech"
               items={['National Institute of Technology, Patna']}
             />
-            <AboutInfoItem title="Varsity" items={['Gulab Memorial College']} />
+            <AboutInfoItem
+              title="Intermediate"
+              items={['Gulab Memorial College']}
+            />
+            <AboutInfoItem title="School" items={['Saraswati Vidya Mandir,Barwat Sena,Bettiah']} />
           </div>
           <div className="about__info__item">
             <h1 className="about__info__heading">My Skills</h1>
             <AboutInfoItem
-              title="FrontEnd"
-              items={['HTML','CSS','JavaScript','React']}
+              title="P Languages"
+              items={['C++','C','Java','Python']}
             />
             <AboutInfoItem
-              title="BackEnd"
-              items={['Node','Express','PHP']}
+              title="FrontEnd"
+              items={['HTML','CSS','JavaScript','BootStrap','ReactJS']}
+            />
+            <AboutInfoItem
+              title="DSA"
+              items={['Data Structures','Algorithms']}
             />
             <AboutInfoItem 
-            title="Design" 
-            items={['Photoshop','After Effecs','Figma']} 
+            title="Others" 
+            items={['Git','GitHub','Hosting']} 
             />
           </div>
           <div className="about__info__item">
             <h1 className="about__info__heading">Experiences</h1>
             <AboutInfoItem
-              title="2010-2012"
-              items={['Junior developer at GeoMagnify']}
+              title="May-2021"
+              items={['Intern at GeoMagnify']}
             />
             <AboutInfoItem
-              title="2012-2016"
-              items={['Front end developer at GeoMagnify']}
+              title="July-2021"
+              items={['Intern at GeoMagnify']}
             />
             <AboutInfoItem 
-            title="2016-" 
-            items={['Freelance web developer']}
+            title="2021-" 
+            items={['web developer']}
              />
           </div>
         </div>

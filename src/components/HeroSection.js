@@ -3,15 +3,14 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
 import styled from 'styled-components';
-import HeroImg from '../assets/images/hero.png';
+import HeroImg from '../assets/images/hero3.jpg';
 import Button from './Button';
 import PText from './PText';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
 
-
 const HeroStyles = styled.div`
-   .hero {
+  .hero {
     height: 100vh;
     min-height: 1000px;
     width: 100%;
@@ -30,7 +29,7 @@ const HeroStyles = styled.div`
       width: 100%;
     }
     .hero__name {
-      font-family: 'Montserrat SemiBold';
+      font-family: "Montserrat SemiBold";
       font-size: 7rem;
       color: var(--white);
     }
@@ -147,69 +146,70 @@ const HeroStyles = styled.div`
   }
 `;
 
-export default function HeroSection(){
-    return(
-        <HeroStyles>
-            <div className="hero">
-            <div className="container">
-                <h1 className="hero__heading"> 
-                <span>Hello, This is</span>
-               <span  className="hero__name">Ayush</span>
-                </h1>
-               <div className="hero__img">
-                  <img src={HeroImg} alt="HeroImg" />
-               </div>
-               <div className="hero__info">
-                  <PText>
-                      I am currently pursuing my BTech in Computer Science 
-                      and Enginnering from National Institute of Technology,
-                      Patna. I am a coder and a front-end developer. 
-                  </PText>
-                  <Button btnLink="/project" btnText="see my works" />
-               </div>
-               <div className="hero__social">
-                  <div className="hero__social__indicator">
-                    <p>Follow</p>
-                    <img src={SocialMediaArrow} alt="" />
-                  </div>
-                  <div className="hero__social__text">
-                     <ul>
-                         <li>
-                             <a 
-                             href="https://leetcode.com/coderayush7767/"
-                             target="_blank"
-                             rel="noreferrer"
-                             >
-                                 FB
-                             </a>
-                         </li>
-                         <li>
-                             <a 
-                             href="https://leetcode.com/coderayush7767/"
-                             target="_blank"
-                             rel="noreferrer"
-                             >
-                                 TW
-                             </a>
-                         </li>
-                         <li>
-                             <a 
-                             href="https://leetcode.com/coderayush7767/"
-                             target="_blank"
-                             rel="noreferrer"
-                             >
-                                 LIN
-                             </a>
-                         </li>
-                     </ul>
-                  </div>
-               </div>
-               <div className="hero__scrollDown">
-                 <p>Scroll</p>
-                 <img src={ScrollDownArrow} alt="" />
-               </div>
+export default function HeroSection() {
+  return (
+    <HeroStyles>
+      <div className="hero">
+        <div className="container">
+          <h1 className="hero__heading">
+            <span>Hello, This is</span>
+            <span className="hero__name">Ayush</span>
+          </h1>
+          <div className="hero__img">
+            <img src={HeroImg} alt="HeroImg" />
+          </div>
+          <div className="hero__info">
+            <PText>
+              I am currently pursuing my BTech in Computer Science and
+              Enginnering from National Institute of Technology, Patna. I am a
+              coder and a front-end developer.
+            </PText>
+            <Button btnLink="/project" btnText="see my works" />
+          </div>
+          <div className="hero__social">
+            <div className="hero__social__indicator">
+              <p>Follow</p>
+              <img src={SocialMediaArrow} alt="" />
             </div>
+            <div className="hero__social__text">
+              <ul>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/ayush-kumar-a4b1a0181/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                     LIN
+                  </a>
+                </li>
+               
+                <li>
+                  <a
+                    href="https://www.facebook.com/ayushkumar.ayushkumar.3538/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    FB
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/kumarayush7767/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    INS
+                  </a>
+                </li>
+              </ul>
             </div>
-        </HeroStyles>
-    );
+          </div>
+          <div className="hero__scrollDown">
+            <p>Scroll</p>
+            <img src={ScrollDownArrow} alt="" />
+          </div>
+        </div>
+      </div>
+    </HeroStyles>
+  );
 }

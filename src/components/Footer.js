@@ -62,9 +62,9 @@ const Footer = () => {
         <div className="footer__col1">
           <h1 className="footer__col1__title">Ayush Kumar</h1>
           <PText>
-            A freelance web designer and developer from Bettiah,Bihar. I always
-            make websites that have unique designs and also have a good
-            performance rate.
+             Hi there! I am Ayush Kumar. 
+             A passionate programmer born in Bettiah,Bihar,India. 
+             I am a Front-end Web Developer with React.js.
           </PText>
         </div>
         <div className="footer__col2">
@@ -107,7 +107,7 @@ const Footer = () => {
                 path: 'mailto:kumarayush7767@gmail.com',
               },
               {
-                title: 'Bettiah , Bihar',
+                title: 'Bettiah,Bihar',
                 path: 'http://google.com/maps',
               },
             ]}
@@ -119,15 +119,19 @@ const Footer = () => {
             links={[
               {
                 title: 'Facebook',
-                path: 'https://facebook.com',
+                path: 'https://www.facebook.com/ayushkumar.ayushkumar.3538/',
               },
               {
                 title: 'Instagram',
-                path: 'https://instagram.com',
+                path: 'https://www.instagram.com/kumarayush7767/',
               },
               {
-                title: 'Twitter',
-                path: 'https://twitter.com',
+                title: 'GitHub',
+                path: 'https://github.com/kumarayush7767',
+              },
+              {
+                title: 'LinkedIn',
+                path: 'https://www.linkedin.com/in/ayush-kumar-a4b1a0181/',
               },
             ]}
           />
