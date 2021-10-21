@@ -50,9 +50,9 @@ const ServiceSection = () => {
                />
                <ServicesSectionItem
                  icon={<MdPhonelinkSetup/>}
-                 title="app Dev"
-                 desc="I develop mobile application.
-                 I create mobile app with eye catching eye."
+                 title="Competitive Coder"
+                 desc="I am a coder. I have done DSA problems and cp on LeetCode,Codechef
+                 ,Hackerrank,GeeksforGeeks and on many more..."
                />
             </div>
             </div>
